@@ -8,19 +8,8 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     //
-    public function add()
+  public function add()
     {
-        return view('adamin.news.create');
+        return view('admin.news.create');
     }
-    
-    public function edit()
-    {
-        
-    }
-    
-    public function update(Request $request)
-    {
-
-    }
-
 }
